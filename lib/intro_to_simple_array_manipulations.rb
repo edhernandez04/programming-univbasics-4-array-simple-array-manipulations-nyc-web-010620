@@ -1,9 +1,9 @@
-def using_push(array, color)
+def using_push(array, string)
   colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
   colors_in_the_rainbow.push("violet")
 end
 
-def using_unshift(array, city)
+def using_unshift(array, string)
   bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
   bouroughs_in_nyc.unshift("Staten Island")
 end
@@ -28,16 +28,16 @@ def shift_with_args(array)
   brands_removed = ice_cream_brands.shift!(2)
 end
 
-def using_concat(array, things)
+def using_concat(array, string)
   my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
   more_favs = ["sports cars", "flatiron school"]
   all_my_favs = my_favorite_things.concat(more_favs)
 end
 
-def using_insert(array, language)
+def using_insert(array, string)
   list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
   another_language = "Python"
-  list_of_programming_languages.insert(another_language, 4)
+  new_array = list_of_programming_languages.insert(another_language, 4)
 end
 
 def using_uniq(array)
@@ -50,12 +50,12 @@ def using_flatten(array)
   flat_array = instruments.flatten
 end
 
-def using_delete(array, instructors)
+def using_delete(array, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   no_offense_steven = instructors.delete("Steven")
 end
 
-def using_delete_at(array, instructors)
+def using_delete_at(array, integer)
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-  deleted_robot = famous_robots.delete[2]
+  deleted_robot = famous_robots.delete
 end
