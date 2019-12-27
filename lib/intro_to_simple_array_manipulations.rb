@@ -10,7 +10,7 @@ end
 
 def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  continents.pop
+  continents.pop!
 end
 
 def pop_with_args(array)
@@ -19,13 +19,13 @@ def pop_with_args(array)
 end
 
 def using_shift(array)
-  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-  bouroughs_in_nyc.shift
+  my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+  im_so_over_this_city = my_favorite_cities.shift!
 end
 
 def shift_with_args(array)
-  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-  bouroughs_in_nyc.shift(2)
+  ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
+  brands_removed = ice_cream_brands.shift!(2)
 end
 
 def using_concat(array, things)
