@@ -40,3 +40,18 @@ def using_insert
   list_of_programming_languages.insert(another_language)[4] = new_array
   return new_array
 end
+
+def using_uniq
+  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  new_array = haircuts.uniq
+end
+
+def using_flatten
+  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+  flat_array = instruments.flatten
+end
+
+def using_delete
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  no_offense_steven = instructors.delete("Steven")
+end
