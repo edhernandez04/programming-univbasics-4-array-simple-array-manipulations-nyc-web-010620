@@ -37,7 +37,7 @@ end
 def using_insert
   list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
   another_language = "Python"
-  list_of_programming_languages.insert(another_language)[4] = new_array
+  list_of_programming_languages.insert(another_language, 4) = new_array
   return new_array
 end
 
@@ -54,4 +54,9 @@ end
 def using_delete
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   no_offense_steven = instructors.delete("Steven")
+end
+
+def using_delete_at
+  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+  deleted_robot = famous_robots.delete[2]
 end
