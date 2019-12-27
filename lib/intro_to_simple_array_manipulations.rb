@@ -33,3 +33,10 @@ def using_concat
   more_favs = ["sports cars", "flatiron school"]
   my_favorite_things.concat(more_favs)
 end
+
+def using_insert
+  list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
+  another_language = "Python"
+  list_of_programming_languages.insert(another_language)[4] = new_array
+  return new_array
+end
