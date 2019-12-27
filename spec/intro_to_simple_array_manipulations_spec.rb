@@ -51,7 +51,7 @@ describe "pop_with_args" do
   end
 
   it "decreases the length of the array by 2" do
-    expect(@dog_breeds.size).to eq(2)
+    expect(@dog_breeds.size).to eq(4)
   end
 end
 
