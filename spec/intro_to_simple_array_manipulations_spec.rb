@@ -80,7 +80,7 @@ describe "shift_with_args" do
   end
 
   it "decreases the length of the array by 2" do
-    expect(@brands_removed.size).to eq(2)
+    expect(@brands_removed.size).to eq(4)
   end
 end
 
