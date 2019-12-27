@@ -65,7 +65,7 @@ describe "using_shift" do
   end
 
   it "decreases the length of the array by 1" do
-    expect(@my_favorite_cities.size).to eq(7)
+    expect(@my_favorite_cities.size).to eq(8)
   end
 end
 
