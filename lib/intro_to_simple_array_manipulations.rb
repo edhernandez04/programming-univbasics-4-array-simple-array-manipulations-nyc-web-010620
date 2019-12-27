@@ -14,8 +14,8 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-  bouroughs_in_nyc.pop(2)
+  dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+  small_dogs = dog_breeds.pop!(2)
 end
 
 def using_shift(array)
